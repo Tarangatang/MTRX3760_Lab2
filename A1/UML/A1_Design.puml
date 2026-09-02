@@ -1,0 +1,33 @@
+@startuml
+skinparam classAttributeIconSize 0
+skinparam style strictuml
+
+top to bottom direction
+
+class CSimulation
+class CRender
+class CLoopReader
+class CRobot
+class CWheel
+class CRangeSensor
+class CWallFollowerController
+class CTrail
+
+' The simulation owns the main parts of the program.
+CSimulation *-- CRender
+CSimulation *-- CLoopReader
+CSimulation *-- CRobot
+
+' The robot owns its physical parts and wall-following behaviour.
+CRobot "1" *-- "2" CWheel
+CRobot "1" *-- "2" CRangeSensor
+CRobot *-- CWallFollowerController
+CRobot *-- CTrail
+
+' These objects use parts owned by other objects.
+CRobot --> CLoopReader
+CRobot --> CRender
+CRangeSensor --> CLoopReader
+CTrail --> CRender
+
+@enduml

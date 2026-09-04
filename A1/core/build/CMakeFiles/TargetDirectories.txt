@@ -1,0 +1,3 @@
+/home/jude/Desktop/USYD/Year_3/MTRX3760/MTRX3760_Lab2/A1/core/build/CMakeFiles/MTRX3760_LAB_2.dir
+/home/jude/Desktop/USYD/Year_3/MTRX3760/MTRX3760_Lab2/A1/core/build/CMakeFiles/edit_cache.dir
+/home/jude/Desktop/USYD/Year_3/MTRX3760/MTRX3760_Lab2/A1/core/build/CMakeFiles/rebuild_cache.dir

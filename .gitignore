@@ -1,0 +1,53 @@
+# Prerequisites & Machine-Generated
+*.d
+
+# Compiled Object files
+*.o
+*.obj
+*.slo
+*.lo
+*.o.d
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Libraries & Binaries
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.lai
+*.la
+*.exe
+*.out
+*.app
+*.elf
+
+# CMake Build Directories & Artifacts
+build/
+bin/
+lib/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+*.cmake.state
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.user
+*.suo
+
+# OS System Files
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
